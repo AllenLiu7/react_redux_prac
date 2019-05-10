@@ -32,6 +32,7 @@ class SongList extends Component {
 const mapStoreToProps = state => {
   //console.log(state);
   //return the this.props we need to the component
+  //state.count comes from the combineReducer function. "songs" equals to the key value
   return { songs: state.songs };
 };
 

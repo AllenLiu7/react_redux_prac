@@ -15,7 +15,7 @@ const SongDetail = props => {
 };
 
 const mapStateToProps = state => {
-  //keyname can be any thine, value should be the same in combineReducer
+  //keyname can be any thing, value should be the same in combineReducer
   return { song: state.selectedSong };
 };
 
