@@ -7,6 +7,7 @@ const songsReducer = () => {
   ];
 };
 
+//take in an action from action creator
 const selectedSongReducer = (selectedSong = null, action) => {
   if (action.type === "SONG_SELECTED") {
     return action.payload;
